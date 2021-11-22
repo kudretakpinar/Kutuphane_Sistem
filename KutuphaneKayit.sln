@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KutuphaneKayit", "KutuphaneKayit.csproj", "{3F7842F1-E137-4111-918D-FB4D3A1E7146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane21.Data", "..\Kutuphane21.Data\Kutuphane21.Data.csproj", "{0CCE0E8E-ACAE-4B09-AB5A-B08811CB2520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F7842F1-E137-4111-918D-FB4D3A1E7146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7842F1-E137-4111-918D-FB4D3A1E7146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7842F1-E137-4111-918D-FB4D3A1E7146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7842F1-E137-4111-918D-FB4D3A1E7146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCE0E8E-ACAE-4B09-AB5A-B08811CB2520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCE0E8E-ACAE-4B09-AB5A-B08811CB2520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCE0E8E-ACAE-4B09-AB5A-B08811CB2520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCE0E8E-ACAE-4B09-AB5A-B08811CB2520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57991465-0B87-4623-8C7D-FB2E979C961A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿
+Kitap
+- Guid Id
+- string Ad
+- DateTime BasimTarihi 
+- KitapTur KitapTur
+- string YazarAd
+- int SayfaSayisi
+- string Aciklama
+- DateTime? AlinmaTarihi
+
+
+KitapTur(Enum)
+- Psikoloji, Fantastik, Tarih, BilimKurgu, Polisiye, Biyografi, Korku, Eğitim
+
+Kullanici
+- Guid Id
+- string AdSoyad
+- string KullaniciAdi
+- string Parola
+- List<Kitap> OduncAlinanKitaplar
+
+KullaniciYoneticisi(Kullancilar,OturumAcma ve KayitOlma)
+- List<Kullanici> Kullanicilar
+- void KayitOlma(string adSoyad, string kullaniciAdi, string parola)
+- Kullanici OturumAcma(string kullaniciAdi, string parola)
+
+KutuphaneYoneticisi(Kitaplar, KitapBagisYapma ve KitapTeslimEtme)
+- List<Kitap> Kitaplar
+- void KitapBagis(Kitap kitap)
+- void KitapTeslimEtme(Kitap kitap)
+
+*****************************************************************
+
+Login Sayfası
+- KullaniciYoneticisine ihtiyaç var OturumAcma ve KayitOlma işlemleri için.
+- Login Sayfası açılırken ve kapanırken jsonserialize ve jsondeserialize işlemleri yapmam gerekiyor. 
+Verileri kaybetmemek için.
+- KayitOl formuna kullaniciYoneticisini göndermeniz gerekiyor.
+
+KayitOl
+- KullaniciYoneticisini almam gerekiyor.
+- Parolalar birbirleriyle eşleşiyorsa kayitOlmak için uygun.
+EKSTRA kullanicilar içerisinde aynı kullanıcı adına sahip biri varsa 
+ordada uyarı verebilir o kayıt gerçekleşmesin.
